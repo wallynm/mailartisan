@@ -1,0 +1,23 @@
+<template name="layoutBaseLogin">
+    <div class="splash-screen">
+        <div class="container">
+            <div class="table-wrapper">
+                <div class="table-cell">
+                    <div class="card-splash">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="text-center p-t-md">
+                                    <a href="{{getPathFor '/'}}" title="Hotmart" class="splash-logo">
+                                        {{>svgHotmartLogo}}
+                                    </a>
+                                </div>
+                                {{>UI.contentBlock}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="red-bar"></div>
+</template>

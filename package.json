@@ -1,0 +1,12 @@
+{
+  "name": "Mailartisan",
+  "private": true,
+  "scripts": {
+    "start": "meteor --settings settings.json"
+  },
+  "dependencies": {
+    "meteor-node-stubs": "~0.2.0",
+    "bootstrap-sass": "^3.3.7",
+    "jquery-ruler": "^1.0.0"
+  }
+}
