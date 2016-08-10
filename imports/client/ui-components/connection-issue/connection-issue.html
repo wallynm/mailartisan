@@ -1,0 +1,16 @@
+<template name="connectionIssue">
+  {{#if hlpConnectionStatus}}
+    <div class="connection-issue">
+      <div class="table-wrapper">
+        <div class="table-cell">
+          <div class="card-block text-center">
+            {{>appLoading hideMessages=true}}
+            <p class="m-b-0 p-t-1">
+              Carregando...
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  {{/if}}
+</template>

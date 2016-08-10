@@ -1,0 +1,14 @@
+<template name="appLoading">
+  <div class="full-x text-center block">
+    <div class="loading-wrapper">
+      <div class="loading-activity"></div>
+      <div class="loading-activity revert"></div>
+      <div class="loading-fire">
+        {{>svgHotmartFire}}
+      </div>
+    </div>
+    {{#unless hideMessages}}
+      <p class="full-x block text-muted m-b-0"><strong class="loading-text"></strong></p>
+    {{/unless}}
+  </div>
+</template>
