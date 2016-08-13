@@ -1,6 +1,17 @@
 body{
+  background: $base-bg;
   font-family: 'Open Sans';
   text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
+}
+
+.app-title{
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  text-align: center; 
+  line-height: $app-title-height;  
+  background-color: $blue-artisan-dark-4; 
+  color: #FFF;
 }

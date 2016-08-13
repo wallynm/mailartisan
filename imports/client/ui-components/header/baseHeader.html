@@ -1,11 +1,15 @@
 <template name="baseHeader">
-  <nav class="blue-artisan darken-3 z-depth-0" role="navigation">
+  <div class="app-menu navbar-fixed">
+    <nav class="blue-artisan darken-3 z-depth-0" role="navigation">
       <ul class="left">
         <li><a class="waves-effect waves-light logo" href="#">{{>baseLogo}}</a></li>
-        <li><a class="waves-effect waves-light" href="#">Navbar Link teste</a></li>
+        <li><a class="waves-effect waves-light" href="#"><span class="icon icon-square"></span><span>Projects</span></a></li>
+        <li><a class="waves-effect waves-light" href="#"><span class="icon icon-paint"></span><span>Templates</span></a></li>
       </ul>
       <ul class="right">
+        <li><a class="waves-effect waves-light" href="#"><span class="icon icon-loupe"></span></a></li>
+        <li><a class="waves-effect waves-light" href="#"><span class="icon icon-information"></span></a></li>
       </ul>
-  </nav>
-
+    </nav>
+  </div>
 </template>

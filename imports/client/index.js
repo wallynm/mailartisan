@@ -1,3 +1,4 @@
+import 'jquery-ruler';
 import './ui-components/';
 import './ui-utils/';
 

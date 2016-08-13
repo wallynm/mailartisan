@@ -5,7 +5,7 @@
     "start": "meteor --settings settings.json"
   },
   "dependencies": {
-    "meteor-node-stubs": "~0.2.0",
-    "jquery-ruler": "^1.0.0"
+    "jquery-ruler": "^1.0.0",
+    "meteor-node-stubs": "~0.2.0"
   }
 }

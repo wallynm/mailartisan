@@ -1,0 +1,42 @@
+$ruler-size: 20px;
+$border-size: 3px;
+
+.app-layout .editor-stage{
+  position: absolute;
+  top: 87px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.ef-ruler {
+  overflow: hidden !important;
+  .corner{
+    background-color: #3F4553 !important;
+    width: $ruler-size !important;
+    height: $ruler-size !important;
+  }
+  .top-line{
+    border-left: 1px dotted #FFF !important;
+  }
+  .left-line{
+    border-top: 1px dotted #FFF !important;
+  }
+  .tick{
+    background-color: #5B7292 !important;
+  }  
+  .ruler {
+    background-color: #3F4553 !important;
+    color: #FFF !important;
+    &.left{
+      top: $ruler-size;
+      width: $ruler-size;
+      box-shadow: 0px $border-size 0px $border-size #161c24;
+    }
+    &.top{
+      left: $ruler-size;
+      height: $ruler-size;
+      box-shadow: $border-size 0px 0px $border-size #161c24;
+    }    
+  }
+}
